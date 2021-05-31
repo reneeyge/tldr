@@ -1,8 +1,10 @@
+
 $(document).ready(function() {
   $('a.menu').click(function() {
     $('.site-header nav').slideToggle(100);
     return false;
   });
+//popup of toggle
 
   $(window).resize(function(){
     var w = $(window).width();
@@ -12,6 +14,7 @@ $(document).ready(function() {
     }
   });
 
+//when width increases, puts words back
 
   $('article.post iframe').wrap('<div class="video-container" />');
 
