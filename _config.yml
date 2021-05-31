@@ -3,6 +3,9 @@ tagline:          a too long; didn't read blog
 description:      
 canonical: https://reneeyge.github.io/tldr/
 
+baseurl: /
+url: https://reneeyge.github.io/tldr/
+
 # Owner/author information
 owner:
   name:           Renee Ge
